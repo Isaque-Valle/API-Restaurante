@@ -24,7 +24,7 @@ Este projeto é uma aplicação web chamada **Alfood** que apresenta uma lista d
 
 Para configurar e rodar a API localmente, siga os passos abaixo:
 
-Navegue até a pasta restaurantes_api-master:
+Navegue até a pasta restaurantes_api-master após extraí-la do arquivo zip:
 **cd restaurantes_api-master**
 
 Construa a API com o comando:
