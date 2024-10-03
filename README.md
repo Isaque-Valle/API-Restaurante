@@ -1,2 +1,2 @@
-# API-Restaurante
+# API-Restaurantes
  API-Alfood
