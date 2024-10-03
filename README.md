@@ -1,51 +1,36 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Alfood - Lista de Restaurantes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação web chamada **Alfood** que apresenta uma lista de restaurantes e pratos armazenados em uma API. A página também possui uma área administrativa onde o usuário pode registrar novos restaurantes, e as informações são salvas na API.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Exibição de uma lista de restaurantes e seus pratos.
+- Área administrativa para adicionar novos restaurantes.
+- Comunicação com a API por meio de requisições **HTTP** utilizando a biblioteca **Axios**.
+- A aplicação foi desenvolvida utilizando **React** e **TypeScript**.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React** para construção da interface.
+- **TypeScript** para tipagem estática e maior segurança no código.
+- **Axios** para realizar as requisições HTTP à API.
+- **Docker** para gerenciamento da API com containers.
+- **API** rodando na porta **8000**.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requisitos
 
-### `npm test`
+- **Node.js** e **npm** instalados.
+- **Docker** e **Docker Compose** instalados para rodar a API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para configurar e rodar a API localmente, siga os passos abaixo:
 
-### `npm run build`
+Navegue até a pasta restaurantes_api-master:
+**cd restaurantes_api-master**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construa a API com o comando:
+**docker compose-build**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Inicie a API com o comando:
+**docker-compose up**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# API-Restaurantes
- API-Alfood
->>>>>>> 35683f260d1db349b7af7b3da2b08bb48be80a2a
